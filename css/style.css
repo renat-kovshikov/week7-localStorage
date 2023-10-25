@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Playpen Sans', cursive;
+}
+
+.container {
+    height: 350px;
+    width: 300px;
+    border: 1px solid rgba(52, 13, 85, 0.61);
+    border-radius: 5px;
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(rgba(180, 56, 102, 0.486), rgba(56, 32, 110, 0.575)),
+    url("../images/9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container > input, .container button {
+    display: block;
+    margin: 1rem auto;
+}
+
+.container button {
+    width: 5rem;
+    padding: 0.3rem;
+    color: aliceblue;
+    background-color: rgba(55, 84, 107, 0.849);
+}
+
+.container h3 {
+    margin: 1.5rem;
+    color: aliceblue;
+}
+
+.container p {
+    color: aliceblue;
+    font-size: 1.5rem;
+}
